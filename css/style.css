@@ -1,0 +1,297 @@
+/* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+body {
+    color:#030303;
+    background-color:#ffffffe7 ;
+    font-size: 30px;
+    font-family:"Amatic SC", sans-serif;
+    line-height: 1.5;
+    margin:0;   
+    }
+
+h1 {
+        text-align: center;
+        font-family: "DM Serif Display", serif;
+        font-size: 90px;
+        font-weight: 400;
+        font-style: normal;
+        background-color: rgba(110, 107, 110, 0.212); 
+        margin-top: 120px;
+        margin-bottom: 0;
+      }
+    
+h2 {
+        text-align: left;
+        font-family: "DM Serif Display", serif;
+        font-size: 50px;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 40px; 
+        margin-top: 20px;
+        margin-bottom: 30px;
+     }
+p {
+    text-align: center;
+    font-style: normal;
+    margin-top: 40px;
+    padding-top: 0;
+    margin-right: 15px;
+    }
+ section {
+    padding-top: 20px;
+    overflow: auto;
+    }
+  
+    
+.Uvod {
+    width: 400px; 
+    margin-left: 60px;
+    margin-top: 60px;
+    padding-left: 20px; 
+    margin-right: 15px;
+    float:left; 
+    display: flex;  
+    }
+
+.logo {
+    width: 250px; 
+    display: block;   
+    float: right;
+    align-self: right;
+
+    }
+
+.Work{
+    background-color: rgba(110, 107, 110, 0.212);  
+    margin-left: 80px;
+    margin-top: 10px;
+    }
+
+.Work p {
+    text-align: right;
+    padding-right: 50px;
+    }
+.Work a {
+    color: rgba(197, 26, 146, 0.849);
+    }
+
+.Work li {
+    margin-right: 20px;
+}
+
+.Hobbies{
+    background-color: rgba(110, 107, 110, 0.212); 
+    margin: 60px 100px 60px 0px;
+    }
+
+.Hobbies h2{
+    text-align: right;
+    margin-right: 60px;
+    }
+
+.Hobbies img {
+    width: 180px;
+    border-radius: 5%;
+    margin-bottom: 30px;
+    }
+
+.Hobbies p {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    }
+
+table{
+    border-spacing: 0;
+    margin-left: 80px;
+    }
+
+th, td {
+    text-align:center;
+    padding:10px 0;}
+
+th {
+    border-bottom: 2px solid #070707;  
+    }
+
+.hobby {
+    padding-left: 100px; 
+    }
+
+    ul{
+        margin-left: 40px;
+    }
+
+.Foto{
+    text-align: center;
+    background-color: rgba(110, 107, 110, 0.212); 
+    display: inline-block;
+    }
+
+.Foto h2{
+    
+    text-align: center;
+    }
+.Foto img {
+    max-width: 100%;
+	height: auto;
+    border: 2px solid #000000;
+    border-radius: 5px;
+  }
+
+.Foto p {
+    text-align: center;
+    margin: 10px  5%;
+    padding-bottom: 20px;
+  }
+  .galerie {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;  
+    margin: 0 20px 30px 20px; 
+    justify-content: center;
+}
+
+
+.Kontakt{
+    background-color: rgba(110, 107, 110, 0.212); 
+    margin-left: 80px;
+    margin-top: 60px;
+  }
+ 
+.Kontakt img {
+    width: 40%; 
+    border: 2px solid #000000;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    float: left;
+    }
+
+.Kontakt p{
+    text-align: left;
+    font-size: 30px;
+    margin-top:0;
+    margin-left: 20px;
+    padding-right: 80px;
+    display:block;
+    }
+.Kontakt h2{
+    margin-left: 20px;
+}
+
+.Kontakt a{
+    color: rgba(197, 26, 146, 0.849);
+    }
+
+.paticka {
+    background-color: #000000ef;
+    color:#c2bec2;
+    text-align:center; 
+    padding: 10px 0;
+}
+.paticka p{
+    margin: 5px;
+}
+
+@media (max-width: 992px) {
+    h1 {
+        font-size: 45px;
+        margin-top: auto;
+      }
+    .Uvod {
+        width: 200px;
+        margin-left: 0px;
+        margin-top: 10px;
+        }
+    p{
+        text-align: justify;
+        font-size: 25px;
+        margin-top: 40px;
+        padding-top: 0;
+        margin-left: 20px;
+        margin-right: 20px;
+     }
+    h2 {
+        font-size: 30px;
+        }
+    .Work{
+        font-size: 22px;
+        margin-left: 20px;
+    }
+    .logo {
+        width: 200px; 
+        }
+    .Work p {
+        padding-right: 0px;
+            }
+    .Hobbies{
+        margin: 60px 20px 60px 0px;
+            }
+
+    .Kontakt{
+                background-color: rgba(110, 107, 110, 0.212); 
+                margin-left: 20px;
+              }
+            
+    .Kontakt p{
+                font-size: 22px;
+                }
+
+    .paticka p{
+    font-size: 22px;
+    text-align:center; 
+    }
+  
+}
+@media (max-width: 767px) {
+    h1 {
+        font-size: 30px;
+        margin-top: auto;
+      }
+    .Uvod {
+        width: 150px;
+        margin-left: 0px;
+        margin-top: 10px;
+        }
+    p{
+        text-align: justify;
+        font-size: 18px;
+        margin-top: 40px;
+        padding-top: 0;
+        margin-left: 20px;
+        margin-right: 20px;
+     }
+h2 {
+        font-size: 30px;
+        }
+.Work{
+        font-size: 18px;
+        margin: 0;
+    }
+.Work ul {
+        margin-left: 20px;
+    }
+.Hobbies{
+        margin: 60px 0px 60px 0px;
+            }
+.logo {
+        width: 150px; 
+        }
+.Work p {
+        margin: 10px;
+        text-align: center;
+    }
+.Kontakt{
+    margin-left:0;
+}
+.Kontakt p,h2{
+    text-align: center;
+}
+.Kontakt p{
+    padding-right: 0;
+}
+.Kontakt img{
+    float: none;
+}
+}
