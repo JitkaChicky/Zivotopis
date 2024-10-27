@@ -83,6 +83,7 @@ p {
 .Hobbies{
     background-color: rgba(110, 107, 110, 0.212); 
     margin: 60px 100px 60px 0px;
+
     }
 
 .Hobbies h2{
@@ -91,9 +92,9 @@ p {
     }
 
 .Hobbies img {
-    width: 180px;
+    width: 250px;
     border-radius: 5%;
-    margin-bottom: 30px;
+    padding-left: 100px;
     }
 
 .Hobbies p {
@@ -104,18 +105,20 @@ p {
 table{
     border-spacing: 0;
     margin-left: 80px;
+
     }
 
 th, td {
     text-align:center;
-    padding:10px 0;}
-
-th {
-    border-bottom: 2px solid #070707;  
-    }
+    padding:10px ;
+    
+}
+.hoby{
+    margin-bottom: 30px;
+}
 
 .hobby {
-    padding-left: 100px; 
+    padding-left: 100px;
     }
 
     ul{
@@ -272,9 +275,38 @@ h2 {
 .Work ul {
         margin-left: 20px;
     }
-.Hobbies{
-        margin: 60px 0px 60px 0px;
+  
+    .hoby{
+        margin-left: 0;
+    }
+    .hobby{
+        padding-left: 10px;
+        justify-content: center;
+    }
+    td{
+        padding-right: 0;
+    }
+.Hobbies h2{
+        text-align: center;
+        }
+.Hobbies img{
+    padding-left: 0;
+    width:40%;
+}
+.Hobbies p, img{
+    text-align: center;
+    float:  center;
             }
+table, th, td, tr, thead, tbody {
+        display: block;
+        border: none;
+        
+              }
+              
+table{
+    float: center;
+}
+            
 .logo {
         width: 150px; 
         }
