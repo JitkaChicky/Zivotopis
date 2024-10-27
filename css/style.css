@@ -85,7 +85,11 @@ p {
     margin: 60px 100px 60px 0px;
 
     }
-
+.hoby{
+    display: flex;
+    margin-bottom: 30px;
+    
+}
 .Hobbies h2{
     text-align: right;
     margin-right: 60px;
@@ -105,20 +109,20 @@ p {
 table{
     border-spacing: 0;
     margin-left: 80px;
-
+    
     }
 
-th, td {
-    text-align:center;
+th, td{
+    text-align:left;
     padding:10px ;
     
-}
-.hoby{
-    margin-bottom: 30px;
+    
 }
 
 .hobby {
     padding-left: 100px;
+    
+   
     }
 
     ul{
@@ -326,4 +330,5 @@ table{
 .Kontakt img{
     float: none;
 }
+
 }
