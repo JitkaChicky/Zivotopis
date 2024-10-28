@@ -96,34 +96,40 @@ p {
     }
 
 .Hobbies img {
-    width: 250px;
+    width: 180px;
     border-radius: 5%;
-    padding-left: 100px;
+    padding-right: 60px;
     }
 
 .Hobbies p {
     margin-top: 10px;
     margin-bottom: 15px;
+    margin-right: 0;
     }
 
 table{
     border-spacing: 0;
     margin-left: 80px;
-    
     }
-
-th, td{
-    text-align:left;
-    padding:10px ;
-    
+tbody{
+    flex-basis: 100%;
     
 }
-
-.hobby {
-    padding-left: 100px;
+th{
+    padding-left: 60px;
+    width: 190px;
+}
+td{
+    width: 190px;
     
-   
-    }
+}
+tr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+}
+
 
     ul{
         margin-left: 40px;
@@ -235,6 +241,25 @@ th, td{
     .Hobbies{
         margin: 60px 20px 60px 0px;
             }
+    .Hobbies p{
+        margin: 0;
+    }
+        .hoby{
+            margin-left: 60px;
+        }
+        .hobby {
+            padding-left: 0;
+        }
+
+        th{
+            width: 150px;
+        }
+        td{
+            width:150px;
+        }
+            td p{
+            text-align: center;
+            }
 
     .Kontakt{
                 background-color: rgba(110, 107, 110, 0.212); 
@@ -284,33 +309,37 @@ h2 {
         margin-left: 0;
     }
     .hobby{
-        padding-left: 10px;
-        justify-content: center;
+        padding-left: 0;
+    }
+    .hobby p{
+        margin: 0;
     }
     td{
         padding-right: 0;
     }
+    .Hobbies
+    {
+        margin-right: 0;
+    }
 .Hobbies h2{
         text-align: center;
+        margin: 0;
         }
 .Hobbies img{
-    padding-left: 0;
-    width:40%;
+    padding-right: 0;
 }
-.Hobbies p, img{
-    text-align: center;
-    float:  center;
-            }
 table, th, td, tr, thead, tbody {
+    display: block;
+          }
+ table, th, td, tr, thead, tbody {
         display: block;
         border: none;
-        
+        text-align: center;
+        height: auto;
               }
-              
-table{
-    float: center;
-}
-            
+    tbody{
+        justify-items: center;
+    }       
 .logo {
         width: 150px; 
         }
