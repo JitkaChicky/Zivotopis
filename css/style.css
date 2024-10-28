@@ -19,7 +19,7 @@ h1 {
         background-color: rgba(110, 107, 110, 0.212); 
         margin-top: 120px;
         margin-bottom: 0;
-      }
+    }
     
 h2 {
         text-align: left;
@@ -30,7 +30,8 @@ h2 {
         margin-left: 40px; 
         margin-top: 20px;
         margin-bottom: 30px;
-     }
+    }
+
 p {
     text-align: center;
     font-style: normal;
@@ -38,6 +39,7 @@ p {
     padding-top: 0;
     margin-right: 15px;
     }
+
  section {
     padding-top: 20px;
     overflow: auto;
@@ -59,7 +61,6 @@ p {
     display: block;   
     float: right;
     align-self: right;
-
     }
 
 .Work{
@@ -68,28 +69,29 @@ p {
     margin-top: 10px;
     }
 
-.Work p {
+.Work p{
     text-align: right;
     padding-right: 50px;
     }
-.Work a {
+
+.Work a{
     color: rgba(197, 26, 146, 0.849);
     }
 
 .Work li {
     margin-right: 20px;
-}
+    }
 
 .Hobbies{
     background-color: rgba(110, 107, 110, 0.212); 
     margin: 60px 100px 60px 0px;
-
     }
+
 .hoby{
     display: flex;
     margin-bottom: 30px;
-    
-}
+    }
+
 .Hobbies h2{
     text-align: right;
     margin-right: 60px;
@@ -111,24 +113,25 @@ table{
     border-spacing: 0;
     margin-left: 80px;
     }
+
 tbody{
-    flex-basis: 100%;
-    
-}
+    flex-basis: 100%; 
+    }
+
 th{
     padding-left: 60px;
     width: 190px;
-}
+    }
 td{
     width: 190px;
     
-}
+    }
 tr{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 140px;
-}
+    }
 
 
     ul{
@@ -142,9 +145,9 @@ tr{
     }
 
 .Foto h2{
-    
     text-align: center;
     }
+
 .Foto img {
     max-width: 100%;
 	height: auto;
@@ -191,7 +194,7 @@ tr{
     }
 .Kontakt h2{
     margin-left: 20px;
-}
+    }
 
 .Kontakt a{
     color: rgba(197, 26, 146, 0.849);
@@ -202,21 +205,23 @@ tr{
     color:#c2bec2;
     text-align:center; 
     padding: 10px 0;
-}
+    }
 .paticka p{
     margin: 5px;
-}
+    }
 
 @media (max-width: 992px) {
     h1 {
         font-size: 45px;
         margin-top: auto;
       }
+
     .Uvod {
         width: 200px;
         margin-left: 0px;
         margin-top: 10px;
         }
+
     p{
         text-align: justify;
         font-size: 25px;
@@ -225,67 +230,78 @@ tr{
         margin-left: 20px;
         margin-right: 20px;
      }
+
     h2 {
         font-size: 30px;
         }
+
     .Work{
         font-size: 22px;
         margin-left: 20px;
     }
+
     .logo {
         width: 200px; 
         }
+
     .Work p {
         padding-right: 0px;
             }
+
     .Hobbies{
         margin: 60px 20px 60px 0px;
+        font-size:22px;
             }
+
     .Hobbies p{
         margin: 0;
-    }
-        .hoby{
-            margin-left: 60px;
-        }
-        .hobby {
-            padding-left: 0;
         }
 
-        th{
-            width: 150px;
+    .hoby{
+        margin-left: 60px;
         }
-        td{
-            width:150px;
+
+    .hobby {
+        padding-left: 0;
         }
-            td p{
-            text-align: center;
+
+    th,td{
+        width: 150px;
+        }
+
+        
+    td p{
+        text-align: center;
             }
 
     .Kontakt{
-                background-color: rgba(110, 107, 110, 0.212); 
-                margin-left: 20px;
+        background-color: rgba(110, 107, 110, 0.212); 
+        margin-left: 20px;
               }
             
     .Kontakt p{
-                font-size: 22px;
-                }
+        font-size: 22px;
+        }
 
     .paticka p{
-    font-size: 22px;
-    text-align:center; 
-    }
+        font-size: 22px;
+        text-align:center; 
+        }
   
 }
+
 @media (max-width: 767px) {
     h1 {
         font-size: 30px;
         margin-top: auto;
       }
+
     .Uvod {
         width: 150px;
         margin-left: 0px;
         margin-top: 10px;
         }
+
     p{
         text-align: justify;
         font-size: 18px;
@@ -294,44 +310,51 @@ tr{
         margin-left: 20px;
         margin-right: 20px;
      }
-h2 {
+
+    h2 {
         font-size: 30px;
         }
-.Work{
+
+    .Work{
         font-size: 18px;
         margin: 0;
     }
-.Work ul {
+
+    .Work ul {
         margin-left: 20px;
     }
-  
+    .Hobbies{
+        margin-right: 0;
+        font-size:18px;
+    }
+
+    .Hobbies h2{
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .Hobbies img{
+    padding-right: 0;
+    padding-bottom: 20px;
+    }
     .hoby{
         margin-left: 0;
     }
+
     .hobby{
         padding-left: 0;
     }
+
     .hobby p{
         margin: 0;
     }
+
     td{
         padding-right: 0;
     }
-    .Hobbies
-    {
-        margin-right: 0;
-    }
-.Hobbies h2{
-        text-align: center;
-        margin: 0;
-        }
-.Hobbies img{
-    padding-right: 0;
-}
-table, th, td, tr, thead, tbody {
-    display: block;
-          }
- table, th, td, tr, thead, tbody {
+    
+    table, th, td, tr, thead, tbody {
         display: block;
         border: none;
         text-align: center;
@@ -340,24 +363,24 @@ table, th, td, tr, thead, tbody {
     tbody{
         justify-items: center;
     }       
-.logo {
+    .logo {
         width: 150px; 
         }
-.Work p {
+    .Work p {
         margin: 10px;
         text-align: center;
     }
-.Kontakt{
+    .Kontakt{
     margin-left:0;
-}
-.Kontakt p,h2{
+    }
+    .Kontakt p,h2{
     text-align: center;
-}
+    }
 .Kontakt p{
     padding-right: 0;
-}
-.Kontakt img{
+    }
+    .Kontakt img{
     float: none;
-}
+    }
 
 }
