@@ -55,7 +55,10 @@ p {
     float:left; 
     display: flex;  
     }
-
+.olomouc{
+    color: rgba(71, 70, 71, 0.705);
+    font-size: 80%;
+}
 .logo {
     width: 250px; 
     display: block;   
@@ -98,7 +101,7 @@ p {
     }
 
 .Hobbies img {
-    width: 180px;
+    width:250px;
     border-radius: 5%;
     padding-right: 60px;
     }
@@ -172,7 +175,7 @@ tr{
 .Kontakt{
     background-color: rgba(110, 107, 110, 0.212); 
     margin-left: 80px;
-    margin-top: 60px;
+    margin-top: 50px;
   }
  
 .Kontakt img {
@@ -212,7 +215,18 @@ tr{
 .paticka p{
     margin: 5px;
     }
-
+@media (max-width: 1259px) {
+    .Uvod {
+        margin-right: 40px;
+    }
+    .About p{
+      text-align: justify;
+      margin-left: 80px;  
+    }
+    .predstaveni p{
+        text-align: center;
+    }
+}
 @media (max-width: 992px) {
     h1 {
         font-size: 45px;
@@ -220,11 +234,15 @@ tr{
       }
 
     .Uvod {
-        width: 200px;
-        margin-left: 0px;
-        margin-top: 10px;
+        width: 200px; 
+        margin: 10px 15px 0 0;
         }
-
+    .About p{
+        margin-left: 20px;
+    }
+    .predstaveni p{
+        text-align: justify;
+    }
     p{
         text-align: justify;
         font-size: 25px;
@@ -237,7 +255,7 @@ tr{
     h2 {
         font-size: 30px;
         }
-
+   
     .Work{
         font-size: 22px;
         margin-left: 20px;
