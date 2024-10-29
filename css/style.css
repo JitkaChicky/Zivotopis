@@ -326,9 +326,16 @@ tr{
     .Work ul {
         margin-left: 20px;
     }
+    .Work p {
+        margin: 10px;
+        text-align: center;
+    }
     .Hobbies{
         margin-right: 0;
         font-size:18px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .Hobbies h2{
@@ -342,9 +349,7 @@ tr{
     padding-bottom: 20px;
     }
     .hoby{
-        margin-left: 0;
-        justify-content: center;
-        display: block;
+        margin-left: 0;   
     }
 
     .hobby{
@@ -361,25 +366,19 @@ tr{
     
     table, th, td, tr, thead, tbody {
         display: block;
-        border: none;
         text-align: center;
         height: auto;
               }
-    
     .logo {
         width: 150px; 
         }
-    .Work p {
-        margin: 10px;
-        text-align: center;
-    }
+   
     .Kontakt{
     margin-left:0;
     flex-direction: column;
     display: flex;
     align-items: center;
     }
-    
     .Kontakt h2{
     margin-left: 0;
     text-align: center;
@@ -398,7 +397,5 @@ tr{
     .container{
     margin: 0;
     }
-    
-    
-  
+      
 }
