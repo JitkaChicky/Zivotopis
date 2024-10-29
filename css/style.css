@@ -199,7 +199,10 @@ tr{
 .Kontakt a{
     color: rgba(197, 26, 146, 0.849);
     }
-
+    .container{
+        margin-left: 20px;
+        margin-right: 0;
+    }
 .paticka {
     background-color: #000000ef;
     color:#c2bec2;
@@ -340,6 +343,8 @@ tr{
     }
     .hoby{
         margin-left: 0;
+        justify-content: center;
+        display: block;
     }
 
     .hobby{
@@ -372,15 +377,26 @@ tr{
     }
     .Kontakt{
     margin-left:0;
+    display: flex;
+    align-self: center;
+    
     }
     .Kontakt p,h2{
     text-align: center;
     }
-.Kontakt p{
+    .Kontakt p{
     padding-right: 0;
     }
     .Kontakt img{
     float: none;
     }
+   
+    .informace{
+        flex-basis: 100%;
 
+    }
+    .row{
+        display: block;
+
+    }
 }
