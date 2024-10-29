@@ -237,13 +237,7 @@ tr{
         width: 200px; 
         margin: 10px 15px 0 0;
         }
-    .About p{
-        margin-left: 20px;
-        margin-top: 20px;
-    }
-    .predstaveni p{
-        text-align: justify;
-    }
+   
     p{
         text-align: justify;
         font-size: 25px;
@@ -252,7 +246,13 @@ tr{
         margin-left: 20px;
         margin-right: 20px;
      }
-
+     .About p{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .predstaveni p{
+        text-align: justify;
+    }
     h2 {
         font-size: 30px;
         }
@@ -332,7 +332,17 @@ tr{
         margin-left: 20px;
         margin-right: 20px;
      }
-
+     .About p{
+        margin-left: 20px;
+        margin-top: 20px;
+        }
+    .predstaveni p{
+        text-align: justify;
+        }
+    .olomouc{
+            color: rgba(71, 70, 71, 0.705);
+            font-size: 80%;
+        }
     h2 {
         font-size: 30px;
         }
