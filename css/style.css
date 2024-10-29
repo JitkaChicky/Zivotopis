@@ -190,10 +190,10 @@ tr{
     margin-top:0;
     margin-left: 20px;
     padding-right: 80px;
-    display:block;
     }
 .Kontakt h2{
-    margin-left: 20px;
+    margin-left: 50px;
+
     }
 
 .Kontakt a{
@@ -201,7 +201,7 @@ tr{
     }
     .container{
         margin-left: 20px;
-        margin-right: 0;
+
     }
 .paticka {
     background-color: #000000ef;
@@ -377,26 +377,23 @@ tr{
     }
     .Kontakt{
     margin-left:0;
-    display: flex;
-    align-self: center;
+    flex-direction: column;
     
     }
     .Kontakt p,h2{
     text-align: center;
+    margin-left: 0;
     }
     .Kontakt p{
     padding-right: 0;
+    margin-right: 0;
     }
     .Kontakt img{
     float: none;
     }
    
-    .informace{
-        flex-basis: 100%;
-
+    .container{
+        margin: 0;
     }
-    .row{
-        display: block;
-
-    }
+    
 }
